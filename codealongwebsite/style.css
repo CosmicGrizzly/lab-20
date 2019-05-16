@@ -1,0 +1,118 @@
+body{
+    background-image: url("andromeda.jpg");
+    margin-bottom: 100px;
+    padding: 0;
+}
+img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 40%;
+}
+.citypicture{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+}
+.audio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center 
+  }
+  #navbar {
+    overflow: hidden;
+    font-family: monospace;
+    height: 55px;
+    width:100%;
+    background-color: rgb(38, 24, 54);
+    left:0;
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-size: 35pt;
+    -webkit-box-shadow: 0px 5px 5px rgb(91, 89, 94);
+    -moz-box-shadow:    0px 5px 5px rgb(108, 100, 117);
+    box-shadow:         0px 5px 5px rgb(136, 129, 145);
+ }
+ 
+ 
+ #navbar a {
+    float: left;
+    border-right: 1px solid snow;
+    display: block;
+    color:mediumturquoise;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 12px;
+    height: 55px;
+    font-size: 35;
+ }
+ 
+ #navbar a:hover{
+    color: rgb(119, 97, 138);
+    background-color:mediumturquoise;
+ }
+ 
+ p.date{
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    float: right;
+    color:snow;
+    font-family: monospace;
+    margin: 0;
+    font-size: 35;
+ }
+ .content {
+    padding: 5%;
+    height: 55px;
+ }
+ 
+ .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+ }
+ 
+ .sticky + .content {
+    padding-top: 10%;
+ }
+ 
+ h1, h2 {
+    text-align: center;
+ }
+
+ .Welcome{
+   left:0;
+   padding: 0;
+   margin: 0;
+   border: none;
+   font-size: 35pt;
+   text-align: center;
+ }
+ .face{
+    height: 240px;
+    width: 240px;
+    padding-top: 5%;
+ }
+ .about{
+    font-size: 25pt;
+    text-align: center;
+    padding: 0;
+    margin: 10%;
+ }
+ .video{
+    display: block;
+    height: 720px;
+    width: 1280px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ .Portvideo{
+    display:block;
+    height: 480px;
+    width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+ }
